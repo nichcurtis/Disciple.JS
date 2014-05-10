@@ -1,7 +1,15 @@
-Disciple
-========
+About
+=====
 
-The Surge MLearn.JS package provided by the Surge Consulting Group is a Socket.io based nodejs platform for real-time analysis of MLearn.JS models.
+The Surge Disciple.JS platform provided by the Surge Consulting Group is a Socket.io based nodejs platform for real-time analysis of MLearn.JS learners.
+
+References
+=====
+
+ * [Surge Consulting Group](http://www.surgeforward.com/)
+
+License
+=====
 
 References
 Surge Consulting Group
