@@ -37,6 +37,9 @@
   },
   "homepage": "https://github.com/surgeforward/Disciple",
   "dependencies": {
-    "socket.io": "^0.9.16"
+    "socket.io": "^0.9.16",
+    "socket.io-client": "^0.9.16",
+    "lodash": "^2.4.1",
+    "q": "^1.0.1"
   }
 }
