@@ -1,0 +1,42 @@
+{
+  "name": "Disciple",
+  "version": "0.0.0",
+  "description": "Socket.io based nodejs platform for real-time analysis of MLearn.JS models.",
+  "main": "disciple.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/surgeforward/Disciple.git"
+  },
+  "keywords": [
+    "mlearn.js",
+    "machine",
+    "learning",
+    "knn",
+    "algorithms",
+    "model",
+    "regression",
+    "classification",
+    "classifier",
+    "regressor",
+    "disciple",
+    "learning",
+    "ai",
+    "artificial",
+    "intelligence",
+    "real",
+    "time",
+    "monitoring"
+  ],
+  "author": "Surge, LLC",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/surgeforward/Disciple/issues"
+  },
+  "homepage": "https://github.com/surgeforward/Disciple",
+  "dependencies": {
+    "socket.io": "^0.9.16"
+  }
+}
