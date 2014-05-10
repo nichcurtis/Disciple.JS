@@ -15,7 +15,7 @@ Server Usage
 
 A disciple-server instance can be launched using nodejs.
 
-    node disciple-server.js --trainSize=38000 --algorithm=knn --prop.neighbors=5 --prop.metric=lazyManhattan --prop.weights=true
+    node disciple-server.js --trainSize=38000 --algorithm=knn
 
 References
 =====
