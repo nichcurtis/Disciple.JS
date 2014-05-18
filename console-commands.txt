@@ -1,0 +1,90 @@
+{
+	train: {
+		discipleSelect
+
+		classifier: {
+			type: 'knn',
+			params: {
+				neighbors: 5,
+				metric: 'lazyManhattan',
+				weights: true
+			}
+		},
+
+		regressor: {
+			type: 'knn',
+			params: {
+				neighbors: 5,
+				metric: 'lazyManhattan',
+				weights: true
+			}
+		},
+
+		data: {
+			input: '',
+			limit: null
+		}
+	},
+	
+	score: {
+		discipleSelect
+		
+		input: '',
+		limit: null,
+		
+		data: {
+			input: '',
+			limit: null
+		}
+	},
+
+	kaggle: {
+		discipleSelect
+
+		input: '',
+		output: '',
+
+		data: {
+			input: '',
+			limit: null
+		},
+	},
+
+	data: {
+		discipleSelect
+
+		input: '',
+		limit: null
+
+	},
+
+	clear: {
+		discipleSelect
+	},
+	disconnect: {
+		discipleSelect
+	},
+	reconnect: {
+		discipleSelect
+	},
+	restart: {
+		discipleSelect
+	}
+}
+
+discipleSelect = {
+	eq: {
+		id: null,
+		hostname: null,
+		status: null,
+		trained: null,
+		loaded: null
+	},
+	neq: {
+		id: null,
+		hostname: null,
+		status: null,
+		trained: null,
+		loaded: null
+	}
+}
